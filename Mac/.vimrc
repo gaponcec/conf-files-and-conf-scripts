@@ -37,7 +37,8 @@ if has("autocmd")
 endif
 "pathogen
 execute pathogen#infect()
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme darkblue
 set background=dark
 "indentguides
 set ts=2 sw=2 et

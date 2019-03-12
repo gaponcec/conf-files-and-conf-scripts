@@ -17,7 +17,7 @@ export GIT_PROMPT_FETCH_REMOTE_STATUS=0 # Avoid fetching remote status
 export GIT_PROMPT_SHOW_UPSTREAM=0 # Don't display upstream tracking branch
 export GIT_SHOW_UNTRACKED_FILES=no # Don't count untracked files (no, normal, all)
 if [ -f "$(brew --prefix bash-git-prompt)/share/gitprompt.sh" ]; then
-	GIT_PROMPT_THEME=Default
+	GIT_PROMPT_THEME=Crunch
 	source "$(brew --prefix bash-git-prompt)/share/gitprompt.sh"
 fi
 GIT_PROMPT="{PathShort}{Branch}{Remote}{Modified}{Staged}{Clean}"
